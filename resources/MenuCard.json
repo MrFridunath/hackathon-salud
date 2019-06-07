@@ -1,0 +1,123 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "color": "Warning",
+            "text": "CHATBOT MENÚ"
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "horizontalAlignment": "Center",
+                                    "selectAction": {
+                                        "type": "Action.Submit",
+                                        "data": 1
+                                    },
+                                    "url": "D:\\node-workspace\\hackathon-salud\\images\\menu_a.png",
+									"size": "Medium"
+                                }
+                            ],
+                            "width": "stretch"
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "horizontalAlignment": "Center",
+                                    "selectAction": {
+                                        "type": "Action.Submit",
+                                        "data": 2
+                                    },
+                                    "url": "D:\\node-workspace\\hackathon-salud\\images\\menu_b.png",
+									"size": "Medium"
+                                }
+                            ],
+                            "width": "stretch"
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "horizontalAlignment": "Center",
+                                    "selectAction": {
+                                        "type": "Action.Submit",
+                                        "data": 3
+                                    },
+                                    "url": "D:\\node-workspace\\hackathon-salud\\images\\menu_c.png",
+									"size": "Medium"
+                                }
+                            ],
+                            "width": "stretch"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "horizontalAlignment": "Center",
+                                    "size": "Small",
+                                    "color": "Accent",
+                                    "text": "LISTADO DE MEDICAMENTOS",
+                                    "wrap": true
+                                }
+                            ],
+                            "width": "stretch"
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "horizontalAlignment": "Center",
+                                    "size": "Small",
+                                    "color": "Accent",
+                                    "text": "CONSULTAR STOCK",
+                                    "wrap": true
+                                }
+                            ],
+                            "width": "stretch"
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "horizontalAlignment": "Center",
+                                    "size": "Small",
+                                    "color": "Accent",
+                                    "text": "PEDIDOS REALIZADOS",
+                                    "wrap": true
+                                }
+                            ],
+                            "width": "stretch"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}

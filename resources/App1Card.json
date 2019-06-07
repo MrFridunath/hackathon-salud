@@ -1,0 +1,86 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "weight": "Bolder",
+                    "color": "Warning",
+                    "text": "LISTADO DE MEDICAMENTOS"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "Input.Text",
+                    "id": "search",
+                    "title": "New Input.Toggle",
+                    "placeholder": "Buscar medicamento..."
+                },
+                {
+                    "type": "Input.ChoiceSet",
+                    "id": "select",
+                    "placeholder": "Placeholder text",
+                    "choices": [
+                        {
+                            "title": "Somatostatina ",
+                            "value": "0"
+                        },
+                        {
+                            "title": "Salbutamol ",
+                            "value": "1"
+                        },
+                        {
+                            "title": "Rocuronio (Bromuro de) ",
+                            "value": "2"
+                        },
+                        {
+                            "title": "Ranitidina",
+                            "value": "3"
+                        },
+                        {
+                            "title": "Propofol",
+                            "value": "4"
+                        },
+                        {
+                            "title": "Propafenona",
+                            "value": "5"
+                        },
+                        {
+                            "title": "Propacetamol",
+                            "value": "6"
+                        },
+                        {
+                            "title": "Omeprazol",
+                            "value": "7"
+                        }
+                    ],
+                    "style": "expanded"
+                },
+                {
+                    "type": "TextBlock",
+                    "horizontalAlignment": "Right",
+                    "size": "Small",
+                    "color": "Accent",
+                    "text": "VER MAS"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "id": "submit",
+            "title": "IR AL MEDICAMENTO",
+            "data": {
+			  "child": 1
+			}
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "weight": "Bolder",
+                    "text": "MENÚ"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "selectAction": {
+                                        "type": "Action.Submit",
+                                        "id": "appMenu0"
+                                    },
+                                    "url": "https://cdn0.iconfinder.com/data/icons/medical-set/100/pills-512.png"
+                                }
+                            ],
+                            "width": "stretch"
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "selectAction": {
+                                        "type": "Action.Submit",
+                                        "id": "appMenu1"
+                                    },
+                                    "url": "https://st3.depositphotos.com/14768666/19511/v/1600/depositphotos_195116850-stock-illustration-pharmacy-icon-isometric-style.jpg"
+                                }
+                            ],
+                            "width": "stretch"
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "selectAction": {
+                                        "type": "Action.Submit"
+                                    },
+                                    "url": "https://cdn2.iconfinder.com/data/icons/lightly-icons/30/user-480.png"
+                                }
+                            ],
+                            "width": "stretch"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "horizontalAlignment": "Center",
+                                    "size": "Small",
+                                    "color": "Good",
+                                    "text": "LISTA DE MEDICAMENTOS",
+                                    "wrap": true
+                                }
+                            ],
+                            "width": "stretch"
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "horizontalAlignment": "Center",
+                                    "size": "Small",
+                                    "color": "Good",
+                                    "text": "BUSCAR FARMACIA CERCANA",
+                                    "wrap": true
+                                }
+                            ],
+                            "width": "stretch"
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "horizontalAlignment": "Center",
+                                    "size": "Small",
+                                    "color": "Good",
+                                    "text": "MI PERFIL"
+                                }
+                            ],
+                            "width": "stretch"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}

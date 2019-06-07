@@ -1,0 +1,90 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "weight": "Bolder",
+                            "color": "Warning",
+                            "text": "OMEPRAZOL"
+                        }
+                    ],
+                    "width": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Right",
+                            "color": "Accent",
+                            "text": "ATRÁS"
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "weight": "Bolder",
+                            "text": "NOMBRE DEL MEDICAMENTO:"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Omeprazol Kern Pharma 20 mg cápsulas duras gastrorresistentes EFG",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "spacing": "Medium",
+                            "weight": "Bolder",
+                            "text": "COMPOSICIÓN CUALITATIVA Y CUANTITATIVA:"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Left",
+                            "text": "Cada cápsula contiene 20 mg de omeprazolExcipientes: Cada cápsula contiene  entre 37,6 y 43 mg de sacarosa.Para consultar la lista completa de excipientes, ver sección 6.1.",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "horizontalAlignment": "Right",
+                                    "color": "Accent",
+                                    "text": "VER MAS"
+                                }
+                            ],
+                            "width": "stretch"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}
