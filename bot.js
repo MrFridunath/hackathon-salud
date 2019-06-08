@@ -4,30 +4,16 @@
 const { CardFactory } = require('botbuilder');
 
 // Import AdaptiveCard content.
-const AccidentsCard = require('./resources/Siniestro.json');
-const InsuranceCard = require('./resources/CreacionSeguro.json');
-const InsuranceCard2 = require('./resources/CreacionSeguro2.json');
-
 const MenuCard = require('./resources/MenuCard.json');
 const App1Card = require('./resources/App1Card.json');
 const App1ItemCard = require('./resources/App1ItemCard.json');
-
-const CARDS = [
-	AccidentsCard,
-	InsuranceCard,
-	InsuranceCard2,
-	MenuCard
-];
 
 const { NlpManager } = require('node-nlp');
 const trainnlp = require('./train-nlp');
 
 const threshold = 0.5;
 const nlpManager = new NlpManager({ languages: ['es', 'en'] });
-////
-var initCount = 0;
-var onMenu = false;
-////
+
 function say(message) {
 	// eslint-disable-next-line no-console
 	console.log(message);
