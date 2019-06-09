@@ -59,12 +59,12 @@ adapter.onTurnError = async (context, error) => {
 };
 
 // Create the Brain.
-const Brain = new Brain();
+const brain = new Brain();
 
 // Listen for incoming requests.
 server.post('/api/messages', (req, res) => {
 	//console.log(req);
     adapter.processActivity(req, res, async (context) => {
-        await Brain.onTurn(context);
+        await brain.onTurn(context);
     });
 });
